@@ -42,3 +42,8 @@ func printLog<T>(message: T,
 # 复制文档内容到剪切板
 pbcopy < hello.txt
 ~~~
+
+### Mac上搭建SVN服务器
+参考：   http://www.cnblogs.com/czq1989/p/4913692.html
+在修改conf下面的配置文件，前面取消注释的时候有空格，需要去掉改空格，否则会报错，Description : Unable to connect to a repository at URL 'svn://localhost/svn/ '  line 19: option expected
+
